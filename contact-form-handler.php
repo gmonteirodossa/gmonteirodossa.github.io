@@ -1,8 +1,8 @@
 <?php
   
-  /*$todo = $_POST['name'];
+  /*$todo = $_GET['name'];
   $j = $_GET['i'];*/
-  $email_to = $_POST['email'];
+  $email_to = $_GET['email'];
   $email_from = "gabrielmonteiro.g10@gmail.com";
   $email_subject = "Your To-Do List";
   $email_body = "Todo: $todo.\n";
